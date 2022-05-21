@@ -1,0 +1,128 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+h1{
+ text-align: center; 
+  
+}
+#home{
+  display: flex;
+  background-image: url("/kibo images/home L.jpg");
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.loglink{
+  font-size: 20px;
+  font-weight: 3px;
+}
+.flow{
+  position: absolute;
+  top:28px; right: 0px;
+}
+#About-Me>p{
+  line-height: 1.2;
+  max-width: 900px
+}
+#About-Me{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+.info{
+  display:flex;
+  justify-content: space-around;
+}
+div.info{
+  margin: 10px;
+  padding: 10px;
+}
+.WD{
+  border: 4px;
+  border-color: #3c7777;
+  margin:20px;
+  background-image: url("/kibo images/WD2.PNG");
+  height: 350px;
+  width:500px;
+}
+.UI{
+  border: 4px;
+  border-color: #3c7777;
+  margin:20px;
+  background-image: url("/kibo images/UI.PNG");
+  height: 350px;
+  width:500px;
+}
+.GD{
+  border-color: #3c7777;
+  margin:20px;
+  background-image: url("/kibo images/GD.PNG");
+  height: 350px;
+  width:500px;
+}
+.BA{
+  margin:20px;
+  background-image: url("/kibo images/BA.PNG");
+  height: 350px;
+  width:500px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.WD>p{
+  text-align:center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.UI>p{
+  text-align:center;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+.GD>p{
+  text-align:center;
+  color: #334573;
+  font-size: 30px;
+  font-weight: bold;
+}
+.BA>p{
+  text-align:center;
+   color: #005916;
+  font-size: 30px;
+  font-weight: bold;
+}
+img{
+  height:400px;
+  width:400px;
+  border: 2.5px solid #838383;
+}
+#pfl{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hire{
+  border-radius: 15px;
+  font-size: 18px;
+  background-color: transparent;
+  position: relative;
+  left: 80px;
+}
+h2{
+  position: relative;
+  left: 60px;
+}
+a:hover{
+  color: #005100;
+  text-decoration: none;
+}
+.hire:hover{
+  color: white;
+ background-color: #334573;
+}
+
